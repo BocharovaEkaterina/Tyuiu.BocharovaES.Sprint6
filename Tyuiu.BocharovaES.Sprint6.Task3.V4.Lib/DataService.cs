@@ -14,7 +14,7 @@ namespace Tyuiu.BocharovaES.Sprint6.Task3.V4.Lib
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    if (matrix[i, j] %2==0)
+                    if ((matrix[i, j] %2==0) && (i==1))
                     {
                         matrix[i, j] = 0;
                     }

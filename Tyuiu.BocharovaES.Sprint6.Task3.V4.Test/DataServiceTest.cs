@@ -17,11 +17,11 @@ namespace Tyuiu.BocharovaES.Sprint6.Task3.V4.Test
 
             int[,] res = ds.Calculate(matrix);
 
-            int[,] wait = { { 0, -7, 0, 0, 0 },
+            int[,] wait = { { -14, -7, 18, 12, -20 },
                             { 0, -15, -19, -19, -3 },
-                            { 0, -5, 0, 0, -17 },
-                            { -1, 0, 0, 0, 11 },
-                            { 0, 0, 0, 19, 0 } };
+                            { -18, -5, -10, 14, -17 },
+                            { -1, 2, -10, 0, 11 },
+                            { 6, -18, 0, 19, 16 }};
 
             CollectionAssert.AreEqual(wait, res);
         }
