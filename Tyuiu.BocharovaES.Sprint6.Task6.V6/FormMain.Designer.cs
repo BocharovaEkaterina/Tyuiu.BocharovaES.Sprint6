@@ -209,7 +209,7 @@
             Controls.Add(panelLeft_BES);
             Controls.Add(panelTop_BES);
             Name = "FormMain";
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 6 | Вариант 6 | Бочарова Е.С.";
             panelTop_BES.ResumeLayout(false);
             groupBoxTask_BES.ResumeLayout(false);
             groupBoxTask_BES.PerformLayout();

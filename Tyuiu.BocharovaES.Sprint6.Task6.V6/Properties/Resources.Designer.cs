@@ -99,5 +99,15 @@ namespace Tyuiu.BocharovaES.Sprint6.Task6.V6.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20240712_202711__1_ {
+            get {
+                object obj = ResourceManager.GetObject("IMG_20240712_202711 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
